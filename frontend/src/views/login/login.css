@@ -1,0 +1,41 @@
+.custom-text-field .MuiInputLabel-root {
+    color: white !important;
+  }
+  
+  .custom-text-field .MuiInputLabel-root.Mui-focused {
+    color: white !important;
+  }
+  
+  .custom-text-field .MuiOutlinedInput-root fieldset {
+    border-color: white !important;
+  }
+  
+  .custom-text-field .MuiOutlinedInput-root:hover fieldset {
+    border-color: white !important;
+  }
+  
+  .custom-text-field .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: white !important;
+  }
+  
+  .custom-text-field .MuiOutlinedInput-root input {
+    color: white !important;
+    background-color: black !important;
+    caret-color: white !important;
+  }
+  .textfield-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust this value to set the desired space */
+  }
+
+.button-style{
+background-color: black;
+  font-weight: bold;
+  color: white;
+  border: 1px solid white;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 320px;
+
+}
